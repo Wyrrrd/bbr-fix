@@ -1,0 +1,12 @@
+{
+    "name": "bbr-fix",
+    "version": "0.18.0",
+    "title": "Beautiful Bridge Railway - Recipe Fix",
+    "author": "Wyrrrd",
+    "factorio_version": "0.18",
+    "dependencies": [
+		"base >= 0.18",
+		"beautiful_bridge_railway >= 0.18.1"
+	],
+    "description": "Adds rails to recipes."
+}
