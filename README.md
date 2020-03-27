@@ -4,5 +4,10 @@
 ### Features
 Changes the recipes of BBR to depend on rails to be more in line with modded rail recipes. You can also enable more expensive recipes via mod settings.
 
+### Examples
+The stone in the rail recipe gets replaced by the bridge material (wood, iron plate or stone brick).
+
+So if your modded rail costs 1x stone, 1x steel and 1x turret (don't ask why), with expensive recipes **disabled**, wooden bridge rail will cost **1x** wood, 1x steel and 1x turret. With expensive recipes **enabled**, wooden bridge rail will cost **5x** wood, 1x steel and 1x turret.
+
 ### Credits
 Thanks to [kapaer](https://mods.factorio.com/user/kapaer) for the [mod](https://mods.factorio.com/mod/beautiful_bridge_railway) this depends on.
