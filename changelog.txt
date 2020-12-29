@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2020-12-29
+  Features:
+    - Added russian locale (thanks to EldrinnElantey on Github)
+  Bugfixes:
+    - Fixed mod name in locales
+---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 2020-12-02
   Changes:
