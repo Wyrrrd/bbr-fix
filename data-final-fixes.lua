@@ -12,10 +12,12 @@ data.raw["recipe"]["bbr-rail-wood"].ingredients = table.deepcopy(base_recipe)
 data.raw["recipe"]["bbr-rail-iron"].ingredients = table.deepcopy(base_recipe)
 data.raw["recipe"]["bbr-rail-brick"].ingredients = table.deepcopy(base_recipe)
 
-if settings.startup["bbr_fix_expensive"].value then
-	table.insert(data.raw["recipe"]["bbr-rail-wood"].ingredients,{"wood",5})
-	table.insert(data.raw["recipe"]["bbr-rail-iron"].ingredients,{"iron-plate",5})
-	table.insert(data.raw["recipe"]["bbr-rail-brick"].ingredients,{"stone-brick",5})
+multiplier = settings.startup["bbr-fix-cost"].value
+
+if multiplier>0 then
+	table.insert(data.raw["recipe"]["bbr-rail-wood"].ingredients,{"wood",multiplier})
+	table.insert(data.raw["recipe"]["bbr-rail-iron"].ingredients,{"iron-plate",multiplier})
+	table.insert(data.raw["recipe"]["bbr-rail-brick"].ingredients,{"stone-brick",multiplier})
 else
 	table.insert(data.raw["recipe"]["bbr-rail-wood"].ingredients,{"wood",1})
 	table.insert(data.raw["recipe"]["bbr-rail-iron"].ingredients,{"iron-plate",1})

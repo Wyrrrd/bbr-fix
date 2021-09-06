@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 2021-09-06
+  Changes:
+    - opened up configurability, now the expensiveness can be set freely (don't overdo it)
+    - if you used expensive mode, you have to set the cost multiplier to 5 before loading your map
+---------------------------------------------------------------------------------------------------
 Version: 1.1.1
 Date: 2020-12-29
   Features:

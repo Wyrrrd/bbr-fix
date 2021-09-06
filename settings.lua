@@ -1,8 +1,8 @@
 data:extend({
     {
-        type = "bool-setting",
-        name = "bbr_fix_expensive",
-        default_value = "false",
+        type = "int-setting",
+        name = "bbr-fix-cost",
+        default_value = 1,
         setting_type = "startup",
     },
 })
