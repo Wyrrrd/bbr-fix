@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date: 2023-03-22
+  Changes:
+    - Complete rewrite to enable copying rail recipe result amount, and for performance
+  Features:
+    - Added "gravel" from IR3 to overwritten materials
+---------------------------------------------------------------------------------------------------
 Version: 1.1.2
 Date: 2021-09-06
   Changes:
