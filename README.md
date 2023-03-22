@@ -11,3 +11,4 @@ So if your modded rail costs 1x stone, 1x steel and 1x turret (don't ask why), w
 
 ### Credits
 Thanks to [kapaer](https://mods.factorio.com/user/kapaer) for the [mod](https://mods.factorio.com/mod/beautiful_bridge_railway) this depends on.
+Thanks to [Eldrinn-Elantey](https://github.com/Eldrinn-Elantey) for the Russian translation.
